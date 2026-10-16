@@ -53,7 +53,7 @@ public class IrisCompat
 
 	public static void registerPipelines()
 	{
-		if (hasIris())
+		if (hasIris() && ASSIGN_TO_IRIS)
 		{
 			Litematica.LOGGER.info("Assigning Litematica Pipelines to Iris Programs:");
 
