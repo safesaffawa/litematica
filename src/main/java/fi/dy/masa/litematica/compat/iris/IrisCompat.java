@@ -10,8 +10,7 @@ import fi.dy.masa.litematica.render.LitematicaPipelines;
 
 public class IrisCompat
 {
-	private static boolean isIrisLoaded = false;
-	private static String irisVersion = "";
+	private static final boolean ASSIGN_TO_IRIS = false;
 
 	public static void register()
 	{
